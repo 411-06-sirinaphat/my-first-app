@@ -147,11 +147,11 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans
     if score == 10:
         st.success("ยินดีด้วย! คุณอยู่ในแรงค์แกรนด์มาสเตอร์! (ยอดเยี่ยม)")
     elif 7 <= score <= 9:
-        st.7-9("คุณอยู่ในแรงค์มาสเตอร์ (เยี่ยม)")
+        st.o("คุณอยู่ในแรงค์มาสเตอร์ (เยี่ยม)")
     elif 4 <= score <= 6:
-        st.4-6("คุณอยู่ในแรงค์ไดมอนด์ (ปานกลาง)")
+        st.tw("คุณอยู่ในแรงค์ไดมอนด์ (ปานกลาง)")
     elif 1 <= score <= 3:
-        st.1-3("คุณอยู่ในแรงค์แพลทินัม (ปรับปรุง)")
+        st.rd("คุณอยู่ในแรงค์แพลทินัม (ปรับปรุง)")
     else:
         st.error("คุณอยู่ในแรงค์บรอนซ์ (ควรปรับปรุงอย่างมาก)")
 
@@ -239,5 +239,5 @@ if st.session_state.get("is_ended", False):
     show_result_dialog(ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans10)
 
 st.divider()
-st.write("นางสาวสิริณภัส ดมดอก เลขที่ 6 ม.4/11")
+st.write("กลุ่มที่ 5 ม.4/11")
 
