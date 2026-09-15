@@ -147,11 +147,11 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans
     if score == 10:
         st.success("ยินดีด้วย! คุณอยู่ในแรงค์แกรนด์มาสเตอร์! (ยอดเยี่ยม)")
     elif 7 <= score <= 9:
-        st.o("คุณอยู่ในแรงค์มาสเตอร์ (เยี่ยม)")
+        st.seventonine("คุณอยู่ในแรงค์มาสเตอร์ (เยี่ยม)")
     elif 4 <= score <= 6:
-        st.tw("คุณอยู่ในแรงค์ไดมอนด์ (ปานกลาง)")
+        st.fourtosix("คุณอยู่ในแรงค์ไดมอนด์ (ปานกลาง)")
     elif 1 <= score <= 3:
-        st.rd("คุณอยู่ในแรงค์แพลทินัม (ปรับปรุง)")
+        st.onetothree("คุณอยู่ในแรงค์แพลทินัม (ปรับปรุง)")
     else:
         st.error("คุณอยู่ในแรงค์บรอนซ์ (ควรปรับปรุงอย่างมาก)")
 
@@ -162,7 +162,7 @@ st.button("🎮 เริ่มเล่นเกม", on_click=reset_game)
 
 # 2. แถบแสดงเวลานับถอยหลัง
 if "start" in st.session_state and not st.session_state.get("is_ended", False):
-    time_left = int(60 - (time.time() - st.session_state.start))
+    time_left = int(100 - (time.time() - st.session_state.start))
 
     if time_left > 0:
         st.error(f"⏳ เหลือเวลา: {time_left} วินาที")
@@ -178,7 +178,7 @@ ans1 = st.text_input(
     value=st.session_state.ans1_val,
 )
 ans2 = st.text_input(
-    "ข้อ 2: I use an '_ r a_ _ _'  to remove pencil marks. ก🧽",
+    "ข้อ 2: I use an '_ r a_ _ _'  to remove pencil marks. 🧽",
     value=st.session_state.ans2_val,
 )
 ans3 = st.text_input(
