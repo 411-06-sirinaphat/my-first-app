@@ -212,6 +212,7 @@ ans9 = st.text_input(
 ans10 = st.text_input(
     "ข้อ 10: I carry my books in a 'b_ _ _ p a _ _'. 🎒",
     value=st.session_state.ans10_val,
+)
 # อัปเดตค่าล่าสุดเข้าตัวแปร
 st.session_state.ans1_val = ans1
 st.session_state.ans2_val = ans2
