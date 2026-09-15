@@ -198,7 +198,7 @@ ans6 = st.text_input(
     value=st.session_state.ans6_val,
 )
 ans7 = st.text_input(
-    "ข้อ 7: I keep my pencils and pens in a 'p _ _ _ l  c a _ e'. ✏️🖊️✒️🖋️",
+    "ข้อ 7: I keep my pencils and pens in a 'p _ _ _ _ l  c a _ e'. ✏️🖊️✒️🖋️",
     value=st.session_state.ans7_val,
 )
 ans8 = st.text_input(
