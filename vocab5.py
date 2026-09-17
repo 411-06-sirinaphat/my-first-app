@@ -240,5 +240,9 @@ if st.session_state.get("is_ended", False):
     show_result_dialog(ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans10)
 
 st.divider()
-st.write("กลุ่มที่ 5 ม.4/11")
+st.write("กลุ่มที่ 5 ม.4/11 
+น.ส.ณัฐธยาน์ สิงห์โต เลขที่ 23 หัวหน้ากลุ่ม
+น.ส.สิริณภัส ดมดอก เลขที่ 6
+นายธาวิน ส่งศรี เลขที่ 25
+น.ส.พิชญาภรณ์ พิไลมณีกุล เลขที่ 29")
 
